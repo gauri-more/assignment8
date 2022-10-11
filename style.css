@@ -380,6 +380,16 @@ footer a:hover {
         bottom: -17%;
         left: 30%;
     }
+
+    .owl-dots {
+        position: absolute;
+        bottom: 20%;
+        left: 41%;
+    }
+        .equipment-card {
+            min-height: 224px;
+            border-radius: 25px;
+        }
 }
 
 
@@ -443,5 +453,11 @@ footer a:hover {
         bottom: -6%;
         left: 21%;
     }
+        .owl-carousel.equipment-carousel .owl-dots {
+            text-align: center;
+            position: absolute;
+            bottom: -15%!important;
+            left: 21%!important;
+        }
 
 }
