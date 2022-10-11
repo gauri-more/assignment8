@@ -86,4 +86,62 @@ $(document).ready(function () {
             }
         }
     });
+    jQuery("#capabilities-carousel").owlCarousel({
+        autoplay: false,
+        rewind: true,
+        margin: 20,
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+
+            600: {
+                items: 2
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 3
+            }
+        }
+    });
+    jQuery("#equipment-carousel").owlCarousel({
+        autoplay: false,
+        rewind: true,
+        margin: 20,
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: true,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 4
+            },
+
+            1366: {
+                items: 5
+            }
+        }
+    });
 })

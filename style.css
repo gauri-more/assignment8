@@ -9,7 +9,16 @@
 .yellowcolor {
     color: #dae102;
 }
-.bg-yellow{
+
+.background-black {
+    background-color: #181b1d;
+}
+
+.gray-color {
+    color: #bcbdbc;
+}
+
+.bg-yellow {
     background-color: #dae102;
 }
 
@@ -67,8 +76,12 @@
 
 
 /* service */
-.btn-secondary.btn-lg {
+.btn-secondary {
     background-color: #dae102;
+}
+
+.btn-secondary:hover {
+    background-color: #d9e1026a;
 }
 
 .service-carousel .owl-item {
@@ -113,25 +126,64 @@
     border-bottom: 3px solid #dae102;
     width: 13%;
 }
-.light-background{
+
+.light-background {
     background-color: #eef1f3;
 }
-.about-card{
+
+.about-card {
     box-shadow: 0 2px 1px 0px #0003,
-            0 1px 1px #00000024,
-            0 1px 3px #0000001f;
+        0 1px 1px #00000024,
+        0 1px 3px #0000001f;
+    min-height: 156px;
 }
+
 .capabilities-seperator {
     border-bottom: 3px solid #dae102;
     width: 15%;
     margin: 0 auto;
     /* text-align: center; */
 }
-    
+
+.btn-primary:hover {
+    background-color: #15462e8e;
+}
+
+.card.capabilities-card {
+    min-height: 590px;
+}
 
 
+.equipment-image {
+    width: 100px;
+}
 
+.equipment-card-body {
+    margin: 0 auto;
+}
 
+.equipment-card {
+    min-height: 203px;
+    border-radius: 25px;
+}
+
+/* footer */
+.connect-icon {
+    border: 3px solid white;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.connect-icon i {
+    font-size: 20px;
+    line-height: 2;
+}
+
+footer a:hover {
+    color: #cddc39b3;
+}
 
 
 
@@ -174,7 +226,7 @@
 
 .owl-carousel .owl-nav button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     background-color: #000;
     color: #fff;
     margin: 0;
@@ -201,27 +253,40 @@
 
 .owl-carousel .owl-dots {
     text-align: center;
-    /* padding-top: 15px; */
+    position: absolute;
+    bottom: -6%;
+}
+
+.owl-carousel.equipment-carousel .owl-dots {
+    text-align: center;
+    position: absolute;
+    bottom: -25%;
 }
 
 .owl-carousel .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    background: #191616;
-    margin: 9px;
-    border: 2px solid white;
-    border-radius: 50%;
-}
-
-.owl-carousel .owl-dots button.owl-dot {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     display: inline-block;
     background: white;
-    margin: 9px;
+    margin: 5px;
     border: 2px solid #9e9e9e;
     border-radius: 50%;
+    background-color: #9e9e9e;
+}
+
+.owl-carousel.equipment-carousel .owl-dots button.owl-dot {
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+    background: white;
+    margin: 3px;
+    border: 2px solid #9e9e9e;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+}
+
+.owl-carousel .owl-dots button.owl-dot.active {
+    background-color: black !important;
 }
 
 .owl-carousel .owl-dots button.owl-dot.active {
@@ -242,7 +307,7 @@
 
 .owl-carousel .owl-nav button {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     background: #fff !important;
     color: #000 !important;
@@ -308,6 +373,13 @@
         width: 90% !important;
         padding: 10px 10px;
     }
+
+    .owl-carousel.equipment-carousel .owl-dots {
+        text-align: center;
+        position: absolute;
+        bottom: -17%;
+        left: 30%;
+    }
 }
 
 
@@ -359,6 +431,17 @@
     .banner-profile-image {
         height: 50px;
         width: 50px;
+    }
+
+    .section-padding {
+        padding: 10px 22px !important;
+    }
+
+    .owl-carousel .owl-dots {
+        text-align: center;
+        position: absolute;
+        bottom: -6%;
+        left: 21%;
     }
 
 }
