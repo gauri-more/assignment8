@@ -1,6 +1,6 @@
 $(document).ready(function () {
     jQuery("#carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
@@ -87,7 +87,7 @@ $(document).ready(function () {
         }
     });
     jQuery("#capabilities-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         rewind: true,
         margin: 20,
         responsiveClass: true,
@@ -145,3 +145,14 @@ $(document).ready(function () {
         }
     });
 })
+
+// counter
+$(document).ready(function () {
+
+    $('.statistic-counter').counterUp({
+        delay: 10,
+        time: 3000
+    });
+
+
+});

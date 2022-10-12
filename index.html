@@ -26,6 +26,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sen&display=swap" rel="stylesheet">
+    <!-- counter -->
+    <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="preconnect" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
 </head>
 
 <body>
@@ -40,12 +46,12 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i class="fa-regular fa-envelope greencolor fs-3"></i><span
-                                        class="ms-2 fw-bold">info@sample.com</a>
+                                        class="ms-2 fw-bold f-19">info@sample.com</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"><i
                                         class="fa-solid fa-phone-volume greencolor fs-3"></i><span
-                                        class="ms-2 fw-bold">+91 123456789</a>
+                                        class="ms-2 fw-bold f-19">+91 123456789</a>
                             </li>
                         </ul>
                     </div>
@@ -54,6 +60,56 @@
             <div class="navbar-seperator yellowcolor"></div>
             <div class="bottom-header ">
                 <nav class="navbar navbar-expand-lg  navbar-dark bg-dark-green nav-padding">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight"
+                            aria-labelledby="offcanvasNavbarLightLabel">
+                            <div class="offcanvas-header ">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white fw-bold f-19" aria-current="page"
+                                            href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Industries</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Project</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Careeer</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold f-19" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+
+
+
+
+                <!-- <nav class="navbar navbar-expand-lg  navbar-dark bg-dark-green nav-padding">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +146,7 @@
                             <span class="fs-3 yellowcolor"><i class="fa-solid fa-magnifying-glass"></i></span>
                         </div>
                     </div>
-                </nav>
+                </nav> -->
             </div>
         </div>
 
@@ -159,7 +215,7 @@
                         </div>
                         <div class="provide-detail ms-4 ">
                             <h5 class="fw-bold">We Have ISO Certificate</h5>
-                            <p>An ISO 1900-2007</p>
+                            <p class="f-19">An ISO 1900-2007</p>
                         </div>
                     </div>
 
@@ -171,7 +227,7 @@
                         </div>
                         <div class="provide-detail ms-4 ">
                             <h5 class="fw-bold">We Provide High Service</h5>
-                            <p>That You Have Expected</p>
+                            <p class="f-19">That You Have Expected</p>
                         </div>
                     </div>
 
@@ -183,7 +239,7 @@
                         </div>
                         <div class="provide-detail ms-4 ">
                             <h5 class="fw-bold">Most Experienced Company </h5>
-                            <p>In The Refractory Business</p>
+                            <p class="f-19">In The Refractory Business</p>
                         </div>
                     </div>
 
@@ -198,7 +254,7 @@
                 <div class="col-md-6 about-us-content">
                     <h2 class="">About Us</h2>
                     <div class="about-us-seperator"></div>
-                    <p class=" py-3 lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam
+                    <p class=" py-3 lh-lg f-19">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora magnam
                         magni laborum
                         harum odit voluptatum qui dolorum debitis fuga assumenda eligendi molestias iure, ipsum quam,
                         error expedita minus, ipsam aut.harum odit voluptatum qui dolorum debitis fuga assumenda
@@ -209,12 +265,60 @@
                     <img src="./assests/about-us-1.jpg" class="img-fluid">
                 </div>
             </div>
-            <div class="row m-0 pt-5">
+            <section id="counter" class="counter">
+                <div class="main_counter_area">
+                    <div class="overlay p-y-3">
+                        <div class="container">
+                            <div class="main_counter_content text-center white-text wow fadeInUp">
+                                <div class="row m-0 pt-5">
+                                    <div class="col-md-3">
+                                        <div class="card about-card text-center p-4 mt-3 single_counter ">
+                                            <div class="about-card-body">
+                                                <h1 class=" statistic-counter fw-bold">102</h1>
+                                                <p class="f-19">Projects Completed</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card about-card text-center p-4 mt-3 single_counter ">
+                                            <div class="about-card-body">
+                                                <h1 class=" statistic-counter fw-bold d-inline">30</h1><span class="fw-bold fs-1">+</span>
+                                                <p class="f-19">Skilled Masons Helpers</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card about-card text-center p-4 mt-3 single_counter ">
+                                            <div class="about-card-body">
+                                                <h1 class=" statistic-counter fw-bold d-inline">100</h1><span class="fw-bold fs-1">+</span>
+                                                <p class="f-19">Satisfied Clients</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="card about-card text-center p-4 mt-3 single_counter ">
+                                            <div class="about-card-body">
+                                                <h1 class=" statistic-counter fw-bold d-inline">20</h1><span class="fw-bold fs-1">+</span>
+                                                <p class="f-19">Team Members</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <div class="row m-0 pt-5">
                 <div class="col-md-3">
                     <div class="card about-card text-center p-4 mt-3">
                         <div class="about-card-body">
                             <h2 class="fw-bold">102</h2>
-                            <p>Projects Completed</p>
+                            <p class="f-19">Projects Completed</p>
                         </div>
                     </div>
                 </div>
@@ -222,7 +326,7 @@
                     <div class="card about-card text-center p-4 mt-3">
                         <div class="about-card-body">
                             <h2 class="fw-bold">30+</h2>
-                            <p>Skilled Masons Helpers</p>
+                            <p class="f-19">Skilled Masons Helpers</p>
                         </div>
                     </div>
                 </div>
@@ -230,7 +334,7 @@
                     <div class="card about-card text-center p-4 mt-3">
                         <div class="about-card-body">
                             <h2 class="fw-bold">102+</h2>
-                            <p>Satisfied Clients</p>
+                            <p class="f-19">Satisfied Clients</p>
                         </div>
                     </div>
                 </div>
@@ -238,11 +342,11 @@
                     <div class="card about-card text-center p-4 mt-3">
                         <div class="about-card-body">
                             <h2 class="fw-bold">20+</h2>
-                            <p>Team Members</p>
+                            <p class="f-19">Team Members</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="Our-capabilities-content mt-5">
                 <div class="capabilities-heading text-center">
                     <h2 class="fw-bold">Our Capabilities</h2>
@@ -254,12 +358,13 @@
                             <div class="card capabilities-card text-center ">
                                 <img src="./assests/capabilities-img1.jpg" class="img-fluid">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Refractory Application</h5>
-                                    <p class="card-text  py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Officiis ipsa perferendis natus consequatur eum non, esse accusantium recusandae
-                                        a tenetur!
+                                    <h5 class="card-title fw-bold">Refractory Application</h5>
+                                    <p class="card-text  py-3 f-19">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Officiis ipsa perferendis natus consequatur eum non, esse accusantium
+
                                         .</p>
-                                    <a href="#" class="btn btn-primary rounded-pill bg-dark-green mt-5 ">Show More</a>
+                                    <a href="#" class="btn btn-primary rounded-pill bg-dark-green mt-4 ">Show More</a>
                                 </div>
                             </div>
 
@@ -267,13 +372,12 @@
                         <div class="item">
                             <div class="card capabilities-card text-center">
                                 <img src="./assests/capabilities-img-2.jpg" class="img-fluid">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title">Refractory Patching And Maintenance</h5>
-                                    <p class="card-text  py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <div class="card-body p-4 ">
+                                    <h5 class="card-title fw-bold">Refractory Patching And Maintenance</h5>
+                                    <p class="card-text  py-3 f-19">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
                                         Officiis ipsa perferendis natus consequatur eum non, esse accusantium recusandae
-                                        a tenetur!Officiis ipsa perferendis natus consequatur eum non, esse accusantium
-                                        recusandae
-                                        a tenetur!
+                                        a tenetur!Officiis ipsa
                                         .</p>
                                     <a href="#" class="btn btn-primary rounded-pill bg-dark-green">Show More</a>
                                 </div>
@@ -284,10 +388,10 @@
                             <div class="card capabilities-card text-center">
                                 <img src="./assests/capabilities-img-3.jpg" class="img-fluid">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Furnace Mechanical And Electrical Maintenance</h5>
-                                    <p class="card-text py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Officiis ipsa perferendis natus consequatur eum non, esse accusantium recusandae
-                                        a tenetur!
+                                    <h5 class="card-title fw-bold">Furnace Mechanical And Electrical Maintenance</h5>
+                                    <p class="card-text py-3 f-19">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
+                                        Officiis ipsa perferendis natus consequatur eum non, esse a
                                         .</p>
                                     <a href="#" class="btn btn-primary rounded-pill bg-dark-green mt-4">Show More</a>
                                 </div>
@@ -298,12 +402,13 @@
                             <div class="card capabilities-card text-center">
                                 <img src="./assests/capabilities-img-4.jpg" class="img-fluid">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Furnace Mechanical And Electrical Maintenance</h5>
-                                    <p class="card-text py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <h5 class="card-title fw-bold">Furnace Mechanical And Electrical Maintenance</h5>
+                                    <p class="card-text py-3 f-19">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit.
                                         Officiis ipsa perferendis natus consequatur eum non, esse accusantium recusandae
-                                        a tenetur!
+
                                         .</p>
-                                    <a href="#" class="btn btn-primary rounded-pill bg-dark-green mt-5">Show More</a>
+                                    <a href="#" class="btn btn-primary rounded-pill bg-dark-green mt-3">Show More</a>
                                 </div>
                             </div>
 
@@ -323,7 +428,7 @@
             <div class="row sevice-content text-white section-padding m-0">
                 <div class="col-md-9">
                     <h2 class="py-2 fw-bold">Industries We Serve</h2>
-                    <p class="py-2">The Automative Industry Is The Technological Trendsetter among Manufacturing
+                    <p class="py-2 f-19">The Automative Industry Is The Technological Trendsetter among Manufacturing
                         Industries.</p>
                 </div>
                 <div class="col-md-3 pt-4">
@@ -494,7 +599,7 @@
             <div class="col-md-3 col-12 col-sm-6">
                 <h2 class="fw-bold">About Us</h2>
                 <div class="about-us-seperator pt-2"></div>
-                <p class="pt-4 gray-color">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
+                <p class="pt-4 gray-color f-19">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
                     inventore qui,
                     culpa
                     maxime ad cupiditate voluptas, suscipit natus tempora unde quae, sed consectetur enim dicta fugit
@@ -503,7 +608,7 @@
             <div class="col-md-3 col-sm-6 col-12">
                 <h2 class="fw-bold"> List</h2>
                 <div class="about-us-seperator pt-2"></div>
-                <ul class="pt-4 list-unstyled">
+                <ul class="pt-4 list-unstyled f-19">
                     <li><a href="" class="gray-color text-decoration-none py-4"> <i
                                 class="fa-solid fa-circle-arrow-right me-3"></i>Home</a></li>
                     <li><a href="" class="gray-color text-decoration-none py-4"> <i
@@ -525,7 +630,7 @@
             <div class="col-md-3 col-sm-6 col-12">
                 <h2 class="fw-bold"> Industries</h2>
                 <div class="about-us-seperator pt-2"></div>
-                <ul class="pt-4 list-unstyled">
+                <ul class="pt-4 list-unstyled f-19">
                     <li><a href="" class="gray-color text-decoration-none py-4"> <i
                                 class="fa-solid fa-circle-arrow-right me-3"></i>Automotive</a></li>
                     <li><a href="" class="gray-color text-decoration-none py-4"> <i
@@ -556,19 +661,23 @@
                 <div class="about-us-seperator pt-2"></div>
                 <div class=" d-flex pt-4">
                     <div class="connect-icon"><i class="fa-solid fa-location-dot"></i></div>
-                    <p class="ms-4">Gat.No. 161,Nr.Shell Petrol Pump,Chimbali Phata.</p>
+                    <p class="ms-4 f-19">Gat.No. 161,Nr.Shell Petrol Pump,Chimbali Phata.</p>
                 </div>
                 <div class=" d-flex py-3">
                     <div class="connect-icon"><i class="fa-solid fa-envelope"></i></div>
-                    <p class="ms-4">info@sample.com</p>
+                    <p class="ms-4 f-19">info@sample.com</p>
                 </div>
                 <div class=" d-flex py-3">
                     <div class="connect-icon"><i class="fa-solid fa-phone"></i></div>
-                    <p class="ms-4">+91 <strong>987654321</strong></p>
+                    <p class="ms-4 f-19">+91 <strong>987654321</strong></p>
                 </div>
             </div>
         </div>
     </footer>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 </body>
 
 </html>
