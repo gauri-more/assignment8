@@ -38,6 +38,10 @@
     margin: 0% 4%;
 }
 
+.btn-close {
+    margin: 0 auto;
+}
+
 .bottom-header .navbar-expand-lg {
     border-radius: 10px;
     position: absolute;
@@ -135,10 +139,8 @@
 }
 
 .about-card {
-    box-shadow: 0 2px 1px 0px #0003,
-        0 1px 1px #00000024,
-        0 1px 3px #0000001f;
-    min-height: 156px;
+    box-shadow: 0 2px 1px 0px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+    min-height: 202px;
 }
 
 .capabilities-seperator {
@@ -171,16 +173,16 @@
 }
 
 /* footer */
-.connect-icon {
+/* .connect-icon {
     border: 3px solid white;
     width: 45px;
     height: 45px;
     text-align: center;
     border-radius: 50%;
-}
+} */
 
 .connect-icon {
-    border: 3px solid white;
+    border: 3px solid #bcbdbc;
     min-width: 45px;
     height: 45px;
     text-align: center;
@@ -427,6 +429,7 @@ footer a:hover {
 @media only screen and (max-width:992px) {
     .navbar-nav .nav-link {
         color: #000 !important;
+        padding-left: 50px;
     }
 }
 
